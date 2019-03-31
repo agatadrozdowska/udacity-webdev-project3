@@ -1,5 +1,4 @@
 var Enemy = function (y, speed) {
-
     this.sprite = 'images/enemy-bug.png';
     this.x = -101;
     this.y = y;
@@ -23,7 +22,6 @@ Enemy.prototype.collision = function () {
 
 
 Enemy.prototype.update = function (dt) {
-
     this.move(dt);
     this.collision();
 };
