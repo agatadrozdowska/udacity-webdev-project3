@@ -1,3 +1,5 @@
+'use strict';
+
 var Enemy = function (y, speed) {
     this.sprite = 'images/enemy-bug.png';
     this.x = -101;
@@ -69,9 +71,9 @@ class Player {
 }
 
 const player = new Player();
-const enemy1 = new Enemy(1, 20);
+const enemy1 = new Enemy(1, 600);
 const enemy2 = new Enemy(2, 400);
-const enemy3 = new Enemy(3, 150);
+const enemy3 = new Enemy(3, 300);
 let allEnemies = [];
 allEnemies.push(enemy1, enemy2, enemy3);
 
